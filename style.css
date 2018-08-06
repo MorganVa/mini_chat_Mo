@@ -1,0 +1,77 @@
+body { 
+    padding-top: 70px;
+    background: url('http://www.associationcausefreudienne-vlb.com/wp-content/uploads/2016/07/fond-gris-sombre.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+ .fond {
+    background: url('https://media.giphy.com/media/TvssierxunVyo/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}  
+
+.ecriture {
+    color: white;
+}
+
+.Tchat {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.fond1 {
+    background-image: url('http://www.gamershell.com/static/streaming/18302/18302_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2%;
+}
+
+.list-group-item-success {
+    font-style: italic;
+    text-align: center;
+    margin-left: 3%;   
+    background-color: #00800099;
+    color: white;
+}
+
+/* .codeTry {
+    background: url('https://www.cssdebutant.com/include/images/code.png');
+    background-repeat: no-repeat;
+    background-position: 5% 7%;
+}
+
+.codeTry2 {
+    background: url('https://www.cssdebutant.com/include/images/code.png');
+    background-repeat: no-repeat;
+    background-position: 96% 99%;
+} */
+
+.list-group-item-dark {
+    background-color:#000000b3;
+    color: white;
+}
+
+strong.toto {
+    color: green;
+}
+
+form.texteBas {
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.input-group > .form-control:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-right: 1%;
+}
+
+.pseudo {
+    margin-right: 1%;
+    margin-left: -1%;
+}
