@@ -7,7 +7,7 @@ use \Colors\RandomColor;
 
  try {
 
-    $bdd = new PDO('mysql:host=localhost;dbname=mini_chat_Mo;charset=utf8', 'root', '');
+    $bdd = new PDO('mysql:host='.(getenv('MYSQL_HOST') ?: 'localhost').';dbname=mini_chat_Mo;charset=utf8', 'root', '');
  }
 
  catch(Exception $e) {
